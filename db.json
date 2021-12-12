@@ -1,0 +1,24 @@
+{
+  "employeDetails": [
+    {
+      "name": "SATYABRATA DAS",
+      "age": "26",
+      "address": "At/po-jaleswarpur, Ps-bhograi, Via-dehur, Ps-bhograi, Ps-bhograi, Ps-bhograi, Ps-bhograi",
+      "department": "director",
+      "salary": "700000",
+      "maritalStatus": true,
+      "image": "blob:http://localhost:3001/42ccadd6-bef5-4ffb-ba5e-25305e4c2f6f",
+      "id": 1
+    },
+    {
+      "name": "Anisha Jena",
+      "age": "26",
+      "address": "11, Ambaliatha",
+      "department": "developer",
+      "salary": "500000",
+      "maritalStatus": true,
+      "image": "blob:http://localhost:3001/99068bd3-f7fe-4829-adba-19afdebe4c4a",
+      "id": 2
+    }
+  ]
+}

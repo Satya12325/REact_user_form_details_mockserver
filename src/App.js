@@ -10,7 +10,7 @@ function App() {
   const [page,setPage]= useState(1);
 
   const getData=(page)=>{
-    fetch(`http://localhost:3000/employeDetails?_limit=5&_page=${page}`)
+    fetch(`http://localhost:3000/employeDetails?_limit=3&_page=${page}`)
       .then(res => res.json())
       .then((res) => {
         setData([...res]);
@@ -18,6 +18,7 @@ function App() {
       .catch((err) => {
         console.log(err)
       })
+      setData([])
   }
   useEffect(() => {
       getData(page);
@@ -42,6 +43,7 @@ function App() {
       body: JSON.stringify(payload)
     }
     await fetch(`http://localhost:3000/employeDetails`, config)
+    getData()
   }
 
   const handleDelete = async (id) => {
@@ -53,6 +55,7 @@ function App() {
     catch (err) {
       console.log(err);
     }
+    getData();
   }
 
   const [deptData,setDeptData]=useState({

@@ -7,6 +7,7 @@ export default function TableItem({data,handleDelete}){
         <table>
             <tbody>
                 <tr>
+                    <th>No.</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Address</th>
@@ -25,7 +26,7 @@ export default function TableItem({data,handleDelete}){
                 <td>{item.department}</td>
                 <td>{item.salary}</td>
                 <td>{item.maritalStatus}</td>
-                <td><img width="30px" src={item.image} alt="" /></td>
+                <td><img width="100px" src={item.image} alt="" /></td>
                 <td><button onClick={()=>handleDelete(item.id)}>X</button></td>
             </tr>
             })}

@@ -4,21 +4,31 @@
       "name": "SATYABRATA DAS",
       "age": "26",
       "address": "At/po-jaleswarpur, Ps-bhograi, Via-dehur, Ps-bhograi, Ps-bhograi, Ps-bhograi, Ps-bhograi",
-      "department": "director",
-      "salary": "700000",
+      "department": "developer",
+      "salary": "50000",
       "maritalStatus": true,
-      "image": "blob:http://localhost:3001/42ccadd6-bef5-4ffb-ba5e-25305e4c2f6f",
+      "image": "blob:http://localhost:3001/9f64a1fe-b040-4504-bc95-9e136c99ea3e",
       "id": 1
     },
     {
-      "name": "Anisha Jena",
-      "age": "26",
-      "address": "11, Ambaliatha",
-      "department": "developer",
-      "salary": "500000",
+      "name": "MINATI DAS",
+      "age": "35",
+      "address": "JALESWARPUR, JALESWARPUR, BHOGRAI",
+      "department": "ceo",
+      "salary": "200000000",
       "maritalStatus": true,
-      "image": "blob:http://localhost:3001/99068bd3-f7fe-4829-adba-19afdebe4c4a",
-      "id": 2
+      "image": "blob:http://localhost:3001/f7219a9e-f8b0-4c62-b59b-08014eaa5b0f",
+      "id": 3
+    },
+    {
+      "name": "Chandan Das",
+      "age": "42",
+      "address": "JALESWARPUR, JALESWARPUR, BHOGRAI",
+      "department": "ceo",
+      "salary": "300000000",
+      "maritalStatus": true,
+      "image": "blob:http://localhost:3001/194b8aac-0e83-4f0f-bbae-02da2ace3c5d",
+      "id": 4
     }
   ]
 }

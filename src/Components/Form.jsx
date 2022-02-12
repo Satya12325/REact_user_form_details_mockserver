@@ -1,4 +1,4 @@
-import { useState,useRef} from "react"
+import { useState,useRef} from "react";
 
 
 export default function Form({onTaskCreate}) {
@@ -16,11 +16,11 @@ export default function Form({onTaskCreate}) {
     const handleChange = (e) => {
         let { name, value, type, checked } = e.target;
 
-        const val = type === "checkbox" ? checked : value
+      value = type === "checkbox" ? checked : value;
 
         setFormData({
             ...formData,
-            [name]: val
+            [name]: value
         });
     }
 
@@ -43,9 +43,18 @@ export default function Form({onTaskCreate}) {
  
 
     const handleSubmit=(e)=>{
+        if(formData.name === "" ){
+            return false
+        }
          e.preventDefault();
         onTaskCreate &&  onTaskCreate(formData);
-        setFormData("");
+        setFormData({ name: "",
+        age: "",
+        address: "",
+        department: "",
+        salary: "",
+        maritalStatus: false,
+        image: null});
     }
 
     return (
